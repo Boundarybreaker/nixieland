@@ -28,9 +28,9 @@ if(rootProject.file('private.gradle').exists()) { //Publishing details
 	apply from: 'private.gradle'
 }
 
-archivesBaseName = "starter"
-group = "io.github.cottonmc"
-version = "1.3.2+1.14.4"
+archivesBaseName = "nixieland"
+group = "space.bbkr"
+version = "1.0.0+1.14.4"
 
 minecraft {
 }

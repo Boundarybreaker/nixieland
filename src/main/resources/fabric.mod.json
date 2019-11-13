@@ -1,28 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "starter",
+  "id": "nixieland",
   "version": "$version",
 
-  "name": "Fabric Starter",
-  "icon": "assets/starter/icon.png",
-  "description": "Template for starting out Fabric mods",
+  "name": "NixieLand",
+  "icon": "assets/nixieland/icon.png",
+  "description": "Tweaks for the NixieLand mod pack",
   "license": "MIT",
   "contact": {
-    "sources": "https://github.com/CottonMC/FabricStarter"
+    "sources": "https://github.com/Boundarybreaker/NixieLand"
   },
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.cottonmc.starter.FabricStarter"
+      "space.bbkr.nixieland.NixieLand"
     ]
   },
   "mixins": [
-    "mixins.starter.json"
+    "mixins.nixieland.json"
   ],
   "depends": {
     "fabricloader": ">=0.4.0"
-  },
-  "custom": {
-    "modmenu:api": true
   }
 }
