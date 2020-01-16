@@ -3,6 +3,7 @@
   "package": "space.bbkr.nixieland.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "MixinMobEntity",
     "MixinPlayerEntity",
     "MixinRabbitEntity",
     "MixinSpawnHelper"
